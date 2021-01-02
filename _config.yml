@@ -177,7 +177,9 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
-  #GitHub: https://github.com/yourname || fab fa-github
+  GitHub: https://github.com/fgu30 || fab fa-github
+  Linkedin: www.linkedin.com/in/fengtech || fa fa-linkedin
+
   #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
@@ -724,7 +726,12 @@ busuanzi_count:
 # Search Services
 # See: https://theme-next.org/docs/third-party-services/search-services
 # ---------------------------------------------------------------
-
+# 本地搜索
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 100
 # Algolia Search
 # For more information: https://www.algolia.com
 algolia_search:
@@ -739,7 +746,7 @@ algolia_search:
 # Local Search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
