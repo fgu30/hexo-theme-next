@@ -235,7 +235,9 @@ chat:
 
 # Automatically excerpt description in homepage as preamble text.
 excerpt_description: true
-
+auto_excerpt:
+  enable: true
+  length: 150
 # Read more button
 # If true, the read more button will be displayed in excerpt section.
 read_more_btn: true
@@ -860,10 +862,10 @@ pace:
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
 three:
-  enable: false
-  three_waves: false
-  canvas_lines: false
-  canvas_sphere: false
+  enable: true
+  three_waves: true
+  canvas_lines: true
+  canvas_sphere: true
 
 # Canvas-ribbon
 # Dependencies: https://github.com/theme-next/theme-next-canvas-ribbon
