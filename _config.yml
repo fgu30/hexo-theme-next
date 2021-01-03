@@ -40,9 +40,9 @@ custom_file_path:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/rice.png
-  medium: /images/rice.png
-  apple_touch_icon: /images/rice.png
+  small: /images/blog.png
+  medium: /images/blog.png
+  apple_touch_icon: /images/blog.png
   safari_pinned_tab: /images/logo.svg
   #android_manifest: /images/manifest.json
   #ms_browserconfig: /images/browserconfig.xml
